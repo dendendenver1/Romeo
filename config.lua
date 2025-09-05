@@ -25,8 +25,13 @@ Config.DateLocations = {
 }
 Config.NPCs = {
     {id = 'npc_amy', name = 'Amy', model = `a_f_y_hipster_04`, home = vec3(-1503.44, -553.12, 32.71), work = vec3(-553.27, -916.51, 23.89), cafe = vec3(-628.12, 239.51, 81.88), park = vec3(-1371.27, -496.14, 33.16)},
-    {id = 'npc_lucas', name = 'Lucas', model = `a_m_m_business_01`, home = vec3(-106.53, -8.74, 70.52), work = vec3(-270.11, -957.28, 31.22), cafe = vec3(-612.83, -107.61, 41.01), park = vec3(-841.34, -1253.52, 6.93)}
+    {id = 'npc_lucas', name = 'Lucas', model = `a_m_m_business_01`, home = vec3(-106.53, -8.74, 70.52), work = vec3(-270.11, -957.28, 31.22), cafe = vec3(-612.83, -107.61, 41.01), park = vec3(-841.34, -1253.52, 6.93)},
+    {id = 'npc_sophia', name = 'Sophia', model = `a_f_m_soucent_01`, home = vec3(-1025.12, -265.33, 36.91), work = vec3(-621.21, 37.15, 93.12), cafe = vec3(-150.23, -880.21, 30.25), park = vec3(-720.41, -1080.55, 10.34)},
+    {id = 'npc_jason', name = 'Jason', model = `a_m_m_farmer_01`, home = vec3(-210.11, -1438.44, 31.11), work = vec3(-401.21, 6183.55, 31.47), cafe = vec3(-344.12, -827.23, 30.58), park = vec3(-95.12, -180.44, 31.22)},
+    {id = 'npc_maria', name = 'Maria', model = `a_f_y_soucent_02`, home = vec3(120.33, -1040.12, 29.21), work = vec3(-250.14, -975.41, 31.34), cafe = vec3(-550.23, -180.41, 38.11), park = vec3(-770.11, -1300.22, 6.82)},
+    {id = 'npc_daniel', name = 'Daniel', model = `a_m_y_hipster_02`, home = vec3(-500.12, -1200.33, 17.25), work = vec3(-300.12, -900.44, 31.35), cafe = vec3(-620.12, -100.44, 37.22), park = vec3(-810.33, -1300.11, 7.44)}
 }
+
 Config.Emotes = {
     hug = {dict = 'mp_ped_interaction', name = 'handshake_guy_a', dur = 3500},
     selfie = {dict = 'cellphone@self', name = 'cellphone_selfie', dur = 6000},
