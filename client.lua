@@ -228,8 +228,9 @@ local function setupPoints()
     for _,def in ipairs(Config.NPCs) do
         local n = spawnNPC(def)
         if n and not State.points[def.id] then
-            State.points[def.id] = lib.points.new({coords = def.home, distance = Config.TextRadius})
-            function State.points[def.id]:nearby()
+            local point = lib.points.new({coords = def.home, distance = Config.TextRadius})
+            State.points[def.id] = point
+            function point:nearby()
                 local p = PlayerPedId()
                 local ped = n.ped
                 if ped ~= 0 and #(GetEntityCoords(p) - GetEntityCoords(ped)) <= Config.TextRadius then
